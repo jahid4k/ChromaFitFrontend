@@ -2,7 +2,7 @@ import { AnalysisResponse } from "./types";
 
 const API_BASE =
   process.env.NEXT_PUBLIC_API_URL ??
-  "https://chromafitbackend-production.up.railway.app/";
+  "https://chromafitbackend-production.up.railway.app";
 
 export class ApiError extends Error {
   constructor(
